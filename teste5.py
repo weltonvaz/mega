@@ -1,0 +1,1 @@
+Como gravar um dicionario na linguagem Python e armazenar os dados um banco de dados sqlite?

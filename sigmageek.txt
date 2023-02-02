@@ -1,0 +1,14 @@
+Você Pode Quebrar Este Código?
+Abaixo está uma mensagem que foi trocada entre dois geeks.
+Seu desafio é descriptografar a mensagem e digitar a resposta na caixa fornecida abaixo.
+
+ACCAG EAEEI KXAAX ENNXS GDGNL
+SEXXP XMOEX LIKHS UAATE BEGXE
+OZTGC KEDMW XLZXE OXXXA HCVLS
+EM
+
+XS
+
+python main.py -d "ACCAG EAEEI KXAAX ENNXS GDGNL SEXXP XMOEX LIKHS UAATE BEGXE OZTGC KEDMW XLZXE OXXXA HCVLS EM" -k 3
+
+python main.py -br "ACCAG EAEEI KXAAX ENNXS GDGNL SEXXP XMOEX LIKHS UAATE BEGXE OZTGC KEDMW XLZXE OXXXA HCVLS EM"
