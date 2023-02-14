@@ -7,7 +7,7 @@ with open("resultados_megasena.txt", "w") as file:
     file.write("numero_concurso,dezenas_sorteadas\n")
 
     # Loop para baixar os resultados de todos os sorteios
-    for i in range(443, 2564):
+    for i in range(1, 2564):
         concurso = MegaSena(i)
         
         dados = concurso.todosDados()
