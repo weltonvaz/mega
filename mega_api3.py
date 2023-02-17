@@ -13,11 +13,11 @@ with open("resultados_megasena.txt", "w") as file:
         concurso = MegaSena(i)
         
         dados = concurso.todosDados()
-        data = datetime.strptime(concurso.dataApuracao(), "%d/%m/%Y").date()
+        data = concurso.dataApuracao()
         
         numero = dados.get('numero')
         if numero:
-            file.write("{},{},{}\n".format(data.toordinal(),numero, " ".join(concurso.listaDezenas())))
+            file.write("{},{},{}\n".format(data,numero, " ".join(concurso.listaDezenas())))
         else:
             print("Não foi possível obter o número do concurso")
         
